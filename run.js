@@ -1,4 +1,4 @@
-/*ADD EVENT LISTENER START---------------------------------*/
+﻿/*ADD EVENT LISTENER START---------------------------------*/
 function addEvt(t,l,f){
 	try{t.addEventListener(l,f,false);}
 	catch(e){t.attachEvent('on'+l,f);}
